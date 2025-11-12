@@ -1,0 +1,166 @@
+body{
+    background-color:rgb(96, 248, 227);
+}
+
+#title{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    background-color: rgb(96, 168, 220);
+    line-height: 1.5;
+    border: 2px, solid, blue;
+    border-radius: 18px;
+    fill: white;
+    transition:0.2s;
+}
+#title:hover{
+    color: black;
+    font: italic;
+}
+#title_web1{
+    font-size: medium;
+    text-align: center;
+}
+#title_web{
+    color:black;
+    text-align: center;
+    font-size:medium;
+}
+#title_web:hover{
+    color:blue;
+    font: bold;
+}
+
+#instruction{
+    color:black;
+    text-align: center;
+    font-size: medium;
+    transition: 0.2s;
+}
+#instruction:hover{
+    color:red;
+    font-size: larger;
+}
+
+.button{
+    color:blue;
+    background-color: greenyellow;
+    animation: both;
+    
+}
+
+#CSS_image{
+    display: block;
+    margin: auto;
+    width: 22%;
+}
+.important{
+    font: italic;
+    color: red;
+}
+
+h2{
+    color: black;
+    transition: 0.2s;
+    text-align: center;
+}
+
+h2:hover{
+    font: bold;
+    color:red;
+}
+.dark_bg{
+    background-color: rgb(255, 255, 255);
+    border: solid, 2px;
+    margin-right: 350px;
+    transition:0.2s;
+}
+.dark_bg:hover{
+    background-color: rgb(255, 255, 255);
+    border: solid, 2px, red;
+    margin-right: 350px;
+}
+
+
+#color{
+    line-height: 1.5;
+    transition: 0.2s;
+}
+#color:hover{
+    color:red;
+}
+#bgcolor{
+    line-height: 1.5;
+    transition: 0.2s;
+}
+#bgcolor:hover{
+    background-color: yellow;
+}
+#font{
+    line-height: 1.5;
+    transition: 0.2s;
+}
+#font:hover{
+    font-size: 30px;
+}
+#font-family{
+    line-height: 1.5;
+    transition: 0.2s;
+}
+#font-family:hover{
+    font-family: Serif, sans-serif;
+}
+
+
+#align{
+    text-align: left;
+    line-height: 2;
+    transition:0.2s
+}
+#align:hover{
+    text-align: right;
+    color:red;
+    border:2px, soild, red;
+}
+#margin{
+    border:solid,2px;
+    line-height: 2.5;
+    background-color: white;
+    text-align: center;
+    transition: 0.2s;
+}
+#margin:hover{
+    color:red;
+    border:solid,2px, red;
+    margin: 40px;
+    background-color: white;
+    text-align: center;
+}
+#padding{
+    border:solid,2px;
+    line-height: 2.5;
+    background-color: white;
+    text-align: center;
+    transition: 0.2s;
+}
+#padding:hover{
+    color:red;
+    border:solid,2px, red;
+    padding: 40px;
+    background-color: white;
+    text-align: center;
+}
+
+
+#border{
+    margin-right: 450px;
+    text-align: center;
+    line-height: 2;
+    transition: 0.2s;
+}
+#border:hover{
+    border:5px, dotted, blue;
+    margin-right: 450px;
+    text-align: center;
+    line-height: 2;
+    transition:0.2s
+}
