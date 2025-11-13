@@ -7,85 +7,140 @@
 
     <body>
 
-        <h1 id="title">A website that teaches you easy CSS</h1>
+        <h1 class="title">A website that teaches you easy CSS</h1>
         <h1 id="title_web1">HTML&CSS online compiler: <a id="title_web" href="https://onecompiler.com/html">OneCompiler</a></h1>
         <h1 id="title_web1">Website to learn CSS: <a id="title_web" href="https://www.w3schools.com/css/default.asp">W3Schools</a></h1>
         <img src="CSS logo.png"  height="330" id="CSS_image"/>
 
         <h1 id="instruction">move your cursor to the boxes to see the changes!</h1>
 
-        <h2>1. selectors</h2>
-        <p>There are 3 selectors for css & html: </p>
-        <ul>
-            <li>Element selector: element{} - <l class="important">change all element tags</l></li>
-            <ul>
-                <li>For example: <br/> h1{} -- to change all header1 texts</li>
-            </ul>
-            <li>Class selector: .classname{} - <l class="important">reusable</l></li>
-            <ul>
-                <li>For example: <br/> .text{} -- to change all class named "text"</li>
-            </ul>
-            <li>ID selector: #idname{} - <l class="important">unique</l></li>
-            <ul>
-                <li>For example: <br/> #text{} -- to change all elements that has an ID of "text"</li>
-            </ul>
-        </ul>
+        <h2>1. Selectors</h2>
+        <h3>There are 3 selectors for css & html: </h3>
+        <div class="clearfix">
+            <div class="boxes1">
+                <p class="fancy_box1">Element selector: element{} - <l class="important">change all element tags</l><br/>For example: <br/> <l class="important">h1{}</l> -- to change all header1 texts</p>
+            </div>
+            <div class="boxes1">
+                <p class="fancy_box1">Class selector: .classname{} - <l class="important">reusable</l><br/>For example: <br/> <l class="important">.text{}</l> -- to change all class named "text"<br/> </p>
+            </div>
+            <div class="boxes1">
+                <p class="fancy_box1">ID selector: #idname{} - <l class="important">unique</l><br/>For example: <br/> <l class="important">#text{}</l> -- to change all elements that has an ID of "text"</p>
+            </div>
+        </div>
 
         <h2>2. Basics in css</h2>
-        <ul>
-            <li>color: change text color</li>
-            <li>background-color: change background color</li>
-            <li>font-size: change size</li>
-            <li>font-family: the font, then the type of font</li>
-            <ul>
-                <li>For example:
-                <p class="dark_bg">
-                    <l id="color">&nbsp;&nbsp;&nbsp;&nbsp;color: red;</l>
-                    <l id="bgcolor"><br/>&nbsp;&nbsp;&nbsp;&nbsp;background-color: yellow;</l>
-                    <l id="font"><br/>&nbsp;&nbsp;&nbsp;&nbsp;font-size: 30px;</l>
-                    <l id="font-family"><br/>&nbsp;&nbsp;&nbsp;&nbsp;font-family: serif, sans-serif;</l>
-                </p>
-            </ul>
-        
+
+        <div class="clearfix">
+            <div class="boxes2">
+                <p class="fancy_box2"><l id="color">Color: Change text color<br/><br/>color: red;</l></p>
+            </div>
+            <div class="boxes2">
+                <p class="fancy_box2" id=><l id="bgcolor">Background-color: Change background color<br/><br/>background-color: yellow;</l></p>
+            </div>
+        </div>
+        <div class="clearfix">
+            <div class="boxes2">
+                <p class="fancy_box2"><l id="font">Font-size: Change the size of the text<br/><br/>font-size: 30px;</l></p>
+            </div>
+            <div class="boxes2">
+                <p class="fancy_box2">font-family: the font, then the type of font<br/><br/><l id="font-family">font-family: serif, sans-serif;</l> &nbsp;&nbsp;&nbsp;&nbsp; <l class="small_font">← you can barely see the differences</l></p>
+            </div>
+        </div>
+
     
         </ul>
         <h2>3. Align</h2>
-            <ul>
-                <li>Align: where to put the text <br/></li>
-                <ul>
-                    <li>For example: <br/></li>
-                    <p class="dark_bg" id="align">
-                            <l id="align">&nbsp;&nbsp;&nbsp;&nbsp;text-align: right;</l>
-                    </p>
-                </ul>
-            </ul>
-        <h2>4. spacing</h2>
-            <ul>
-                <li>margin: space <l class="important">outside</l> element</li>
-                <ul>
-                    <li>For example: <br/></li>
-                    <p id="margin">&nbsp;&nbsp;&nbsp;&nbsp;margin: 40px;</p>
-                </ul>
-                <li>padding: space <l class="important">inside</l> element</li>
-                <ul>
-                    <li>For example: <br/></li>
-                    <p id="padding">&nbsp;&nbsp;&nbsp;&nbsp;padding: 40px;</p>
-                </ul>
-            </ul>
-        <h2>5. border</h2>
-            <ul>
-                <li>border: to draw border (put size, type, and color)</li>
-                <ul>
-                    <li>For example: </li>
-                    <p id="border">border: 5px, dotted, blue</p>
-                </ul>
-                <li>border-radius: round border (put size)</li>
-            </ul>
+
+        <p class="fancy_box3">Align: where to put the text<br/><br/><l id="align">text-align: right;</l></p>
+
+        <h2>4. Spacing</h2>
+
+        <div class="clearfix">
+            <div class="boxes2">
+                <p class="fancy_box4_1">Margin: more space <l class="important">outside</l> element<br/><br/>margin: 40px;</p>
+            </div>
+            <div class="boxes2">
+                <p class="fancy_box4_2">Padding: more space <l class="important">inside</l> element<br/><br/>padding: 40px;</p>
+            </div>
+        </div>
+
+        <h2>5. Borders</h2>
+
+        <div class="clearfix">
+            <div class="boxes2">
+                <p class="fancy_box5_1">Border: to draw border, make a box<br/>border: 5px, solid,blue;</p>
+            </div>
+            <div class="boxes2">
+                <p class="fancy_box5_2">border-radius: to draw round border after border<br/>border-radius: 20px;</p>
+            </div>
+        </div>
+
+        <h2>6. Positions</h2>
+
+        <h3 class="subtitle1">controls how an element is positioned within a document</h3>
+        <div class="clearfix">
+            <div class="boxes1">
+                <p class="fancy_box6 relative">Relative: moves from normal topic<br/><br/>position: relative;</p>
+            </div>
+            <div class="boxes1">
+                <p class="fancy_box6 absolute">absolute: positioned relative to nearest parent<br/><br/>position: absolute;<br/><br/><a href="Example page.html" class="dark_font">Go to this page to see example</a></p>
+            </div>
+            <div class="boxes1">
+                <p class="fancy_box6">fixed: stays stuck while scrolling<br/><br/>position: fixed<br/><br/><a href="Example page.html" class="dark_font">Go to this page to see example</a></p>
+            </div>
+        </div>
+
+        <h2>7. Hover</h2>
+        <h3 class="subtitle1">Hover apply specific styles to an element only when this "hover" state is active (you move your cursor on to it)</h3>
+
+        <div class="clearfix">
+            <div class="boxes1">
+                <p id="original_box">This is original paragraph</p>
+            </div>
+            <div class="boxes1">
+                <p id="hover">line-height: 1.5;<br/>padding: 20px;<br/>margin: 10px;<br/>border: 2px,solid,red;<br/>
+                color:rgb(248, 248, 248);<br/>background-image: url("bg.png");<br/>font-size: larger;
+                <br/>font-style: italic;</p>
+            </div>
+            <div class="boxes1">
+                <a href="CSS.html">
+                <button id="hover2">This is a button</button>
+                </a>
+            </div>
+        </div>
+
+        <h2>8. Layout</h2>
+
+        <p class="fancy_box7">These structure the layout: <br/>1. Borders<br/>2. Margin<br/>
+            3. Padding<br/>And maybe background-color. </p>
+
+
+        <h2>9. Flexbox</h2>
+
+        <h3 class="subtitle1">Is the shor for the CSS Flexible Box Layout module</h3>
+        <div class="clearfix">
+            <div class="boxes2">
+                <p class="fancy_box8">Not "Flex" Box!!</p>
+            </div>
+            <div class="boxes2">
+                <img src="flexbox.png" alt="flexbox" width="300" height="200" id="flex_box"/>
+            </div>
+        </div>
+        
+        <p class="fancy_box9">.container {<br/>&nbsp;&nbsp;&nbsp;&nbsp;display: flex;<br/>}<br/>.container div{<br/>&nbsp;&nbsp;&nbsp;&nbsp;margin: 10px;<br/>&nbsp;&nbsp;&nbsp;&nbsp;padding: 20px;<br/>&nbsp;&nbsp;&nbsp;&nbsp;font-size: 24px;<br/>}</p>
+
+        <div class="container">
+            <div>Item 1</div>
+            <div>Item 2</div>
+            <div>Item 3</div>
+            <div>Item 4</div>
+            <div>Item 5</div>
+        </div>
+
+        <h1><br/><br/><br/><br/><br/><br/><br/><br/></h1>
+
+        <h1 class="title color_change">Congradulations! You finished the tutrial of html!</h1>
     </body>
 
 </html>
-
-            <ul>
-                <li></li>
-            </ul>
 

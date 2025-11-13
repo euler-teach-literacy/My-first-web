@@ -1,8 +1,11 @@
 body{
-    background-color:rgb(96, 248, 227);
+    /*background-color:rgb(96, 248, 227);*/
+    background-image: url("bg2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-#title{
+.title{
     text-align: center;
     color:rgb(255, 255, 255);
     background-color: rgb(96, 168, 220);
@@ -12,33 +15,150 @@ body{
     fill: white;
     transition:0.2s;
 }
-#title:hover{
+.title:hover{
     color: black;
     font: italic;
 }
 #title_web1{
+    border: 2px,solid,green;
+    border-radius: 12px;
+    color:rgb(255, 255, 255);
     font-size: medium;
     text-align: center;
+    margin-left: 33%;
+    margin-right: 33%;
+    background-image: url("bg.jpg");
+    padding:7px;
+    line-height: 1.4;
 }
 #title_web{
-    color:black;
+    background-color: rgb(109, 31, 181);
+    border: 1px,solid,rgb(83, 211, 211);
+    border-radius: 12px;
+    color:rgb(255, 255, 255);
     text-align: center;
     font-size:medium;
+    padding: 4px;
 }
 #title_web:hover{
-    color:blue;
+    color:rgb(229, 255, 0);
     font: bold;
 }
 
 #instruction{
-    color:black;
+    color:rgb(0, 0, 0);
     text-align: center;
     font-size: medium;
     transition: 0.2s;
+    border:1px,solid,blue;
+    border-radius: 14px;
+    margin-left: 28%;
+    margin-right:28%;
+    background-color: rgb(118, 233, 198);
+    padding: 7px;
 }
 #instruction:hover{
     color:red;
     font-size: larger;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.boxes1{
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+}
+.clearfix::after{
+    content: "";
+    clear:both;
+    display:table;
+}
+
+.fancy_box1{
+    border:solid,2px;
+    border-radius: 12px;
+    padding: 10px;
+    transition: 0.2s;
+    background-image: url("boxes_bg1.jpg");
+}
+.fancy_box1:hover{
+    border:solid,2px,red;
+    padding: 30px;
+}
+
+.boxes2{
+    float:left;
+    width:50%;
+    padding:25px;
+}
+.fancy_box2{
+    border:solid,2px;
+    border-radius: 12px;
+    padding: 10px;
+    transition: 0.2s;
+    background-image: url("boxes_bg2.jpg");
+}
+.fancy_box2:hover{
+    border:2px, solid, red;
+    padding:20px;
+}
+.small_font{
+    font-size: 8px;
+}
+
+.fancy_box3{
+    margin-left: 20%;
+    margin-right: 20%;
+    border: solid,2px;
+    border:solid,2px;
+    border-radius: 12px;
+    padding: 25px;
+    transition: 0.2s;
+    background-image: url("boxes_bg3.webp");
+
+}
+.fancy_box3:hover{
+    border:2px,solid,red;
+    color:red;
+    padding:25px;
+    text-align: right;
+}
+
+.fancy_box4_1{
+    color:white;
+    border: solid,2px;
+    border:solid,2px;
+    border-radius: 12px;
+    padding: 20px;
+    transition: 0.2s;
+    background-image: url("boxes_bg4.jpg");
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.fancy_box4_1:hover{
+    border:2px,solid,red;
+    color:red;
+    margin:40px;
+}
+
+.fancy_box4_2{
+    color:white;
+    border: solid,2px;
+    border:solid,2px;
+    border-radius: 12px;
+    padding: 20px;
+    transition: 0.2s;
+    background-image: url("boxes_bg4.jpg");
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.fancy_box4_2:hover{
+    border:2px,solid,red;
+    color:red;
+    padding:40px;
 }
 
 .button{
@@ -59,6 +179,11 @@ body{
 }
 
 h2{
+    border:solid,2px,white;
+    background-image: url("grandient\ color1.png");
+    border-radius: 14px;
+    margin-left: 40%;
+    margin-right: 40%;
     color: black;
     transition: 0.2s;
     text-align: center;
@@ -110,57 +235,256 @@ h2:hover{
     font-family: Serif, sans-serif;
 }
 
+.fancy_box5_1{
+    line-height: 2;
+    transition: 0.2s;
+    background-image: url("grandient\ color2.png");
+    padding: 10px;
+    margin-left: 25%;
+    margin-right: 15%;
+}
+.fancy_box5_1:hover{
+    border: 5px,solid,blue;
+}
+.fancy_box5_2{
+    line-height: 2;
+    transition: 0.2s;
+    background-image: url("grandient\ color2.png");
+    padding: 10px;
+    margin-left: 15%;
+    margin-right: 25%;
+}
+.fancy_box5_2:hover{
+    border: 5px,solid,blue;
+    border-radius: 50px;
+}
 
-#align{
+.subtitle1{
+    border: 2px,solid,rgb(207, 206, 206);
+    text-align: center;
+    border-radius: 15px;
+    line-height: 1.6;
+    background-image: url("grandient\ color3.png");
+    margin-left: 20%;
+    margin-right: 20%;
+    transition: 0.2s;
+}
+.subtitle1:hover{
+    color: blue;
+    border: 2px,solid,black;
+    padding: 10px;
+}
+
+.fancy_box6{
+    padding: 10px;
+    color:white;
+    background-image: url("grandient\ color1.png");
+    border: 2px,solid,rgb(207, 206, 206);
+    text-align: center;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+.fancy_box6:hover{
+    padding: 10px;
+    border: rgb(255, 242, 0),solid,2px;
+    color:rgb(242, 255, 0);
+}
+.relative{
+    padding: 10px;
+    position: relative;
+    margin-right: 40px;
+}
+
+.dark_font{
+    color: red;
+    line-height: 1.4;
+}
+
+#fixed{
+    position:fixed;
+    border:2px,solid,white;
+    border-radius: 15px;
+    background-image: url("grandient\ color2.png");
+}
+.middle{
+    text-align: center;
+}
+#absolute{
+    position:absolute;
+    border:2px,solid,white;
+    border-radius: 15px;
+    background-image: url("grandient\ color2.png");
+}
+#relative2{
+    margin-left: 20%;
+    margin-right: 20%;
+    position: relative;
+    border:2px,solid,white;
+    border-radius: 15px;
+    background-image: url("grandient\ color2.png");
+}
+
+#original_box{
+    color:white;
+    border: 2px, solid, black;
+    border-radius: 12px;
+    line-height: 1.5;
+    padding: 12px;
+    background-image: url("grandient\ color5.png");
+}
+#hover{
+    color:white;
+    border: 2px, solid, black;
+    border-radius: 12px;
+    line-height: 1.1;
+    padding: 11px;
+    background-image: url("grandient\ color5.png");
+    transition: 0.3s;
+}
+#hover:hover{
+    line-height: 1.5;
+    padding: 20px;
+    margin: 10px;
+    border: 2px,solid,red;
+    color:rgb(248, 248, 248);
+    background-image: url("Boxes_bg5_2.png");
+    font-size: larger;
+    font-style: italic;
+}
+#hover2{
+    border: 2px,solid,black;
+    color:white;
+    border: 2px, solid, black;
+    border-radius: 12px;
+    line-height: 1.1;
+    padding: 11px;
+    background-image: url("grandient\ color5.png");
+    transition: 0.3s;
+}
+#hover2:hover{
+    padding: 15px;
+    font-size: large;
+}
+
+.fancy_box7{
+    border: 2px,solid,white;
+    border-radius: 13px;
+    color: white;
+    text-align: center;
+    background-image: url("boxes_bg7.png");
+    margin-left: 31%;
+    margin-right: 31%;
+    line-height: 1.3;
+    padding: 8px;
+    transition: 0.3s;
+}
+.fancy_box7:hover{
+    color:aqua;
+    border: 2px,solid,aqua;
+    padding: 20px;
+    line-height: 1.7;
+}
+
+.container{
+    border-radius: 10px;
+    border: 2px,solid,black;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    background-image: url("boxes_bg3.webp");
+    transition: 0.2s;
+}
+.container:hover{
+    border: 2px, solid,red;
+    background-image: url("boxes_bg5.png");
+}
+.container div{
+    border: 2px,solid,black;
+    border-radius: 10px;
+    background-image: url("bg3.png");
+    margin: 10px;
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+.container div:hover{
+    border: 2px,solid,rgb(255, 255, 255);
+    color: red;
+
+}
+
+.color_change{
+    animation: colorChange 3s infinite alternate;
+}
+@keyframes colorChange{
+    0%{
+        color: red;
+        background-color: green;
+    }
+    20%{
+        color: orange;
+        background-color: blue;
+    }
+    40%{
+        color: yellow;
+        background-color: purple;
+    }
+    60%{
+        color:rgb(67, 221, 67);
+        background-color: red;
+    }
+    80%{
+        color: cyan;
+        background-color: rgb(255, 94, 0);
+    }
+    100%{
+        color: purple;
+        background-color: yellow;
+    }
+}
+
+.fancy_box8{
+    border: 2px,solid,black;
+    border-radius: 10px;
+    background-image: url("grandient\ color1.png");
+    margin: 10px;
+    padding: 30px;
+    font-size: 24px;
+    text-align: center;
+    transition: 0.2s;
+}
+.fancy_box8:hover{
+    border: red,2px,solid;
+    margin: 20px;
+}
+
+#flex_box{
+    border: 2px,solid,white;
+    border-radius: 10px;
+    background-image: url("grandient\ color3.png");
+    padding: 5px;
+    transition: 0.2s;
+}
+#flex_box:hover{
+    border: red,solid,2px;
+    background-image: url("grandient\ color4.png");
+}
+
+.fancy_box9{
+    color: white;
     text-align: left;
-    line-height: 2;
-    transition:0.2s
-}
-#align:hover{
-    text-align: right;
-    color:red;
-    border:2px, soild, red;
-}
-#margin{
-    border:solid,2px;
-    line-height: 2.5;
-    background-color: white;
-    text-align: center;
+    border: 2px,solid,white;
+    border-radius: 10px;
+    background-image: url("grandient\ color5.png");
+    padding: 5px;
     transition: 0.2s;
+    margin-left: 30%;
+    margin-right: 30%;
+    line-height: 1.5;
+    padding: 15px;
 }
-#margin:hover{
-    color:red;
-    border:solid,2px, red;
-    margin: 40px;
-    background-color: white;
-    text-align: center;
-}
-#padding{
-    border:solid,2px;
-    line-height: 2.5;
-    background-color: white;
-    text-align: center;
-    transition: 0.2s;
-}
-#padding:hover{
-    color:red;
-    border:solid,2px, red;
-    padding: 40px;
-    background-color: white;
-    text-align: center;
-}
-
-
-#border{
-    margin-right: 450px;
-    text-align: center;
-    line-height: 2;
-    transition: 0.2s;
-}
-#border:hover{
-    border:5px, dotted, blue;
-    margin-right: 450px;
-    text-align: center;
-    line-height: 2;
-    transition:0.2s
+.fancy_box9:hover{
+    border: rgb(0, 0, 0),2px,solid;
+    padding: 10px;
 }
