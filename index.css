@@ -257,6 +257,7 @@ h2:hover{
 .fancy_box5_2:hover{
     border: 5px,solid,blue;
     border-radius: 50px;
+    transition: 0.2s;
 }
 
 .subtitle1{
@@ -285,7 +286,7 @@ h2:hover{
     transition: 0.2s;
 }
 .fancy_box6:hover{
-    padding: 10px;
+    padding: 25px;
     border: rgb(255, 242, 0),solid,2px;
     color:rgb(242, 255, 0);
 }
@@ -357,12 +358,13 @@ h2:hover{
     border: 2px, solid, black;
     border-radius: 12px;
     line-height: 1.1;
-    padding: 11px;
+    padding: 20px;
     background-image: url("grandient\ color5.png");
     transition: 0.3s;
+    margin-right: 29%;
 }
 #hover2:hover{
-    padding: 15px;
+    padding: 25px;
     font-size: large;
 }
 
@@ -415,32 +417,46 @@ h2:hover{
 }
 
 .color_change{
+    margin: 10px;
+    padding: 15px;
+    line-height: 4;
     animation: colorChange 3s infinite alternate;
+    transition: 0.2s;
+}
+.color_change:hover{
+    font-style: italic;
+    border: 4px,red,solid;
 }
 @keyframes colorChange{
     0%{
         color: red;
         background-color: green;
+        border: 2px,solid,red;
     }
     20%{
         color: orange;
         background-color: blue;
+        border: 2px,solid,orange;
     }
     40%{
         color: yellow;
         background-color: purple;
+        border: 2px,solid,yellow;
     }
     60%{
         color:rgb(67, 221, 67);
         background-color: red;
+        border: 2px,solid,rgb(67,211,67);
     }
     80%{
         color: cyan;
         background-color: rgb(255, 94, 0);
+        border: 2px,solid,cyan;
     }
     100%{
         color: purple;
         background-color: yellow;
+        border: 2px,solid,purple;
     }
 }
 
@@ -487,4 +503,23 @@ h2:hover{
 .fancy_box9:hover{
     border: rgb(0, 0, 0),2px,solid;
     padding: 10px;
+}
+
+.bg2{
+    background-image: url("bg4.png");
+}
+
+.nb{
+    border: 2px, solid;
+    border-radius: 12px;
+    font-size: large;
+    padding: 15px;
+    margin: 20px;
+    transition: 0.2s;
+}
+.nb:hover{
+    border: 3px,solid,red;
+    padding: 25px;
+    color:red;
+    background-image: url("grandient\ color1.png");
 }
