@@ -4,7 +4,9 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .title{
     text-align: center;
     color:rgb(255, 255, 255);
@@ -14,6 +16,10 @@ body{
     border-radius: 18px;
     fill: white;
     transition:0.2s;
+    font-style: arial;
+    font-family: cursive;
+    word-spacing: 1px;
+    letter-spacing: 1px;
 }
 .title:hover{
     color: black;
@@ -105,10 +111,6 @@ body{
     border:2px, solid, red;
     padding:20px;
 }
-.small_font{
-    font-size: 8px;
-}
-
 .fancy_box3{
     margin-left: 20%;
     margin-right: 20%;
@@ -232,7 +234,7 @@ h2:hover{
     transition: 0.2s;
 }
 #font-family:hover{
-    font-family: Serif, sans-serif;
+    font-family: cursive;
 }
 
 .fancy_box5_1{
@@ -518,6 +520,24 @@ h2:hover{
     transition: 0.2s;
 }
 .nb:hover{
+    border: 3px,solid,red;
+    padding: 25px;
+    color:red;
+    background-image: url("grandient\ color1.png");
+}
+
+.go_back{
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+    border: 2px, solid;
+    border-radius: 12px;
+    font-size: large;
+    padding: 15px;
+    background-image: url("grandient\ color2.png");
+    transition: 0.2s;
+}
+.go_back:hover{
     border: 3px,solid,red;
     padding: 25px;
     color:red;
