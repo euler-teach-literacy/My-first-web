@@ -309,6 +309,9 @@ h2:hover{
     border-radius: 15px;
     background-image: url("images/grandient\ color2.png");
 }
+.fixed2{
+    text-size: medium;
+}
 .middle{
     text-align: center;
 }
@@ -542,4 +545,5 @@ h2:hover{
     padding: 25px;
     color:red;
     background-image: url("images/grandient\ color1.png");
+
 }
