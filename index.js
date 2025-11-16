@@ -1,6 +1,6 @@
 let i = 1;
 let number = 0;
-number = prompt("Please guess a number! \n (the number is always random)");
+number = prompt("Please guess a number from 1 to 10! \n (the number is generated randomly every time)");
 let random = Math.floor(Math.random() * (10 - 1 + 1)) + 1;
 
 
