@@ -427,6 +427,7 @@ h2:hover{
     line-height: 4;
     animation: colorChange 3s infinite alternate;
     transition: 0.2s;
+    border-radius: 12px;
 }
 .color_change:hover{
     font-style: italic;
@@ -547,3 +548,4 @@ h2:hover{
     background-image: url("images/grandient\ color1.png");
 
 }
+
